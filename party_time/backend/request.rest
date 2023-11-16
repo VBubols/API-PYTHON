@@ -1,0 +1,21 @@
+POST http://localhost:3000/api/services
+Content-Type: application/json
+
+{
+    "name": "Algum serviço",
+    "description": "Alguma descrição",
+    "price": 1,
+    "image": "dhttps://pm1.aminoapps.com/6535/072bc449ae7c0fbb20c48a3e0be88d03fb22ad7d_00.jpg"
+}
+
+###
+
+GET http://localhost:3000/api/services
+
+###
+
+GET http://localhost:3000/api/services/6556412489024bb95d254115
+
+###
+
+DELETE http://localhost:3000/api/services/6556412489024bb95d254115
